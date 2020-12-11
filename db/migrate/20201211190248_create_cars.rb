@@ -6,7 +6,7 @@ class CreateCars < ActiveRecord::Migration[6.0]
       t.integer :year
       t.text :description
       t.string :imageUrl
-      t.references :driver
+      t.belongs_to :driver
     end
   end
 end

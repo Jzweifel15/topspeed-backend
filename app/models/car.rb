@@ -1,3 +1,3 @@
-class Car < ApplicationRecord
-  has_many :drivers
+class Car < ApplicationRecord 
+  belongs_to :driver
 end 

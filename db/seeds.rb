@@ -34,7 +34,7 @@ Car.create!(make: "Dodge", model: "Charger", year: "2015-Present", description: 
 
 #Ferrari
 Car.create!(make: "Ferrari", model: "458 Italia", year: "2010-2015", description: Faker::Lorem.paragraph, imageUrl: "https://cnet3.cbsistatic.com/img/sfjc9zLYKZT8PuABmLBNFwpPjcM=/1200x675/2009/07/28/8e406a8c-f0fe-11e2-8c7c-d4ae52e62bcc/458_Italia_01.jpg", msrp: "235000", topspeed: "198")
-Car.create!(make: "Ferrari", model: "F12 Berlinetta", year: "1994-2004", description: Faker::Lorem.paragraph, imageUrl: "https://www.motortrend.com/uploads/sites/5/2012/07/2014-Ferrari-F12-Berlinetta-front-three-quarters.jpg", msrp: "322638", topspeed: "225")
+Car.create!(make: "Ferrari", model: "F12 Berlinetta", year: "2013-2017", description: Faker::Lorem.paragraph, imageUrl: "https://www.motortrend.com/uploads/sites/5/2012/07/2014-Ferrari-F12-Berlinetta-front-three-quarters.jpg", msrp: "322638", topspeed: "225")
 
 #Ford
 Car.create!(make: "Ford", model: "GT", year: "2005-2006", description: Faker::Lorem.paragraph, imageUrl: "https://cnet2.cbsistatic.com/img/2h48xo65FmTkZDucUjIvb3gkix4=/470x264/2015/01/12/b61d2a3d-db54-4f6f-8f92-43517505fb77/mega-5086.jpg", msrp: "149995", topspeed: "205")

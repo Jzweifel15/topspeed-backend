@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_11_190740) do
+ActiveRecord::Schema.define(version: 2020_12_16_093832) do
 
   create_table "cars", force: :cascade do |t|
     t.string "make"
@@ -18,8 +18,8 @@ ActiveRecord::Schema.define(version: 2020_12_11_190740) do
     t.string "year"
     t.text "description"
     t.string "imageUrl"
-    t.integer "driver_id"
-    t.index ["driver_id"], name: "index_cars_on_driver_id"
+    t.string "msrp"
+    t.string "topspeed"
   end
 
   create_table "drivers", force: :cascade do |t|

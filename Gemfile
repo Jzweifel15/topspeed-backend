@@ -28,6 +28,10 @@ gem 'rack-cors'
 # Used for generating and seeding the database with test data
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 
+# used for authentication, and the dispatch and revocation of JWT tokens
+gem 'devise'
+gem 'devise-jwt'
+
 # Used for allowing us to work with serializer classes for rendering customized json api
 gem 'fast_jsonapi'
 

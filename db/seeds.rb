@@ -22,7 +22,7 @@ Car.create!(make: "Chevrolet", model: "Camaro", year: "2010-2015", description: 
 Car.create!(make: "Chevrolet", model: "Camaro", year: "2016-Present", description: desc, imageUrl: "https://cnet4.cbsistatic.com/img/CK64wrchHYSKRAgDod_g2OnKUDE=/1200x675/2018/08/07/03d9a410-3280-43b1-893f-8f3d2ad407b8/2018-chevrolet-camaro-ss-1le-1.jpg", msrp: "27500", topspeed: "165")
 
 #Dodge
-Car.create!(make: "Dodge", model: "Challenger", year: "2008-2014", description: desc, imageUrl: "https://cnet3.cbsistatic.com/img/jWxrVXIEZrYjDWwXko4Fe0eU6b4=/1200x675/2013/03/22/8a89ff76-f0e0-11e2-8c7c-d4ae52e62bcc/35642482_SS28.jpg", msrp: "26500", topspeed: "1182")
+Car.create!(make: "Dodge", model: "Challenger", year: "2008-2014", description: desc, imageUrl: "https://cnet3.cbsistatic.com/img/jWxrVXIEZrYjDWwXko4Fe0eU6b4=/1200x675/2013/03/22/8a89ff76-f0e0-11e2-8c7c-d4ae52e62bcc/35642482_SS28.jpg", msrp: "26500", topspeed: "182")
 Car.create!(make: "Dodge", model: "Challenger", year: "2015-Present", description: desc, imageUrl: "https://cnet2.cbsistatic.com/img/2Gw7b-WpLKV7eZ7yS9fdumgC83c=/980x551/2017/10/05/4431b42d-d148-4011-a540-46e7d6af7699/2018-dodge-challenger-srt-demon-3.jpg", msrp: "27990", topspeed: "199")
 Car.create!(make: "Dodge", model: "Charger", year: "2006-2014", description: desc, imageUrl: "https://www.motorcarsofjackson.com/imagetag/247/2/f/Used-2013-Dodge-Charger-SRT8-Jackson-MS.jpg", msrp: "27000", topspeed: "174")
 Car.create!(make: "Dodge", model: "Charger", year: "2015-Present", description: desc, imageUrl: "https://cnet4.cbsistatic.com/img/6qeUDcjNkrgsAJylcWPqX7pUvhk=/2019/06/27/b09ac1ce-0ab1-47d4-a6ef-40c28e8437de/2020-dodge-charger-hellcat-widebody-ogi.jpg", msrp: "29000", topspeed: "204")

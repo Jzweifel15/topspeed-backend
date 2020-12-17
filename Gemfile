@@ -28,6 +28,9 @@ gem 'rack-cors'
 # Used for generating and seeding the database with test data
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 
+# Used for allowing us to work with serializer classes for rendering customized json api
+gem 'fast_jsonapi'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

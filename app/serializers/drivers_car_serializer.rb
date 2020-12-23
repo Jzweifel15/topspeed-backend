@@ -1,4 +1,4 @@
 class DriversCarSerializer
   include FastJsonapi::ObjectSerializer
-  attributes 
+  attributes :car_id, :driver_id
 end

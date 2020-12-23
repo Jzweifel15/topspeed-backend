@@ -1,12 +1,12 @@
 class DriversCarsController < ApplicationController
   def index
     drivers_cars = DriversCar.all 
-    render json: drivers_cars
+    render json: DriversCarSerializer.new(drivers_cars)
   end
 
   def create
     driver_car = DriversCar.create(drivers_car_params)
-    render json: DriversCar.all
+    render json: driver_car
   end
 
   private

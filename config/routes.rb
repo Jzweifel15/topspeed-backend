@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   resources :cars, only: [:index]
   resources :drivers, only: [:show]
-  resources :drivers_cars, only: [:index, :create]
+  resources :drivers_cars, only: [:index, :show, :create, :destroy]
 end

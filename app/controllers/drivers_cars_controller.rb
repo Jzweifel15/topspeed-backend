@@ -4,9 +4,19 @@ class DriversCarsController < ApplicationController
     render json: DriversCarSerializer.new(drivers_cars)
   end
 
+  def show
+    drivers_car = DriversCar.find(params[:id])
+    render json: drivers_car
+  end
+
   def create
-    driver_car = DriversCar.create(drivers_car_params)
-    render json: driver_car
+    drivers_car = DriversCar.create(drivers_car_params)
+    render json: drivers_car
+  end
+
+  def destroy
+    drivers_car = DriversCar.find(params[:id])
+    drivers_car.destroy
   end
 
   private

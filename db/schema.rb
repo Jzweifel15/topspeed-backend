@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_16_105843) do
+ActiveRecord::Schema.define(version: 2021_01_11_230708) do
 
   create_table "cars", force: :cascade do |t|
     t.string "make"
@@ -36,6 +36,10 @@ ActiveRecord::Schema.define(version: 2020_12_16_105843) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["car_id"], name: "index_drivers_cars_on_car_id"
     t.index ["driver_id"], name: "index_drivers_cars_on_driver_id"
+  end
+
+  create_table "manufacturers", force: :cascade do |t|
+    t.string "name"
   end
 
 end

@@ -52,7 +52,7 @@ new_car34 = Car.create!(make: "Hennessey", model: "Venom GT", year: "2011-2017",
 
 # Koenigsegg
 new_car35 = Car.create!(make: "koenigsegg", model: "Agera", year: "2011-2014", description: desc, imageUrl: "https://www.thedrive.com/content-b/message-editor%2F1576103142924-2018koenigseggagerarsforsaleonautotraderdec20192.jpg?", msrp: "2,100,000", topspeed: "285")
-new_car36 = Car.create!(make: "koenigsegg", model: "CCX", year: , description: desc, imageUrl: , msrp: , topspeed: )
+new_car36 = Car.create!(make: "koenigsegg", model: "CCX", year: "2006-2010", description: desc, imageUrl: "https://cdn.carbuzz.com/gallery-images/1600/596000/100/596137.jpg", msrp: "700,000", topspeed: "245")
   
 # Lamborghini
 new_car23 = Car.create!(make: "Lamborghini", model: "Murcielago", year: "2004-2010", description: desc, imageUrl: "https://cnet4.cbsistatic.com/img/h_md17-hQd4wBChFpmnktZ2tJv0=/1200x630/2007/08/07/380bb3ca-f4d7-11e2-8c7c-d4ae52e62bcc/chrome.jpg", msrp: "290000", topspeed: "205")

@@ -1,7 +1,9 @@
 desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
 # Test Drivers
-testDriver = Driver.create!(name: "Justin Z", email: "justin.z@email.com")
+testDriver1 = Driver.create!(name: "Justin Z", email: "justin.z@email.com")
+testDriver2 = Driver.create!(name: "Cameron S", email: "cameron.s@email.com")
+testDriver3 = Driver.create!(name: "Gabriella G", email: "gabriella.g@email.com")
   
 # Audi
 new_car1 = Car.create!(make: "Audi", model: "R8", year: "2008-2016", description: desc, imageUrl: "https://cnet2.cbsistatic.com/img/TUuq9bBwJqTffiUVy1y0GXJauF8=/1200x630/2013/07/31/92ff9d92-6788-11e3-846b-14feb5ca9861/_MG_9460.jpg", msrp: "158150", topspeed: "198")

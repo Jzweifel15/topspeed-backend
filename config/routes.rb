@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   root "cars#index"
 
   resources :cars, only: [:index]
-  resources :drivers, only: [:show]
+  resources :drivers, only: [:index, :show, :create]
   resources :drivers_cars, only: [:index, :show, :create, :destroy]
 end
